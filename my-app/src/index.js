@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // Add react router and structure your files into Pages & Components
+  // Also introduce SCSS and play around with styling
   <React.StrictMode>
     <App />
   </React.StrictMode>

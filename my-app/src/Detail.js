@@ -4,7 +4,8 @@ export const Detail = (props) => {
   const [details, setDetail] = useState()
 
   useEffect(() => {
-    fetch(props.url)
+    // please use Axios to fetch the data
+    fetch(props.url) // don't pass url as a props, you are more likely to pass id 
       .then(response => response.json())
       .then(json => {
         setDetail(json)
